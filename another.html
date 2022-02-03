@@ -1,0 +1,146 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+goelabhishek694
+/
+learnMERN
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+learnMERN/html/learning/units.html
+@goelabhishek694
+goelabhishek694 diff bw rem em
+Latest commit 8533108 11 minutes ago
+ History
+ 1 contributor
+88 lines (84 sloc)  2.17 KB
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html{
+            font-size:30px;
+        } */
+        .parent{
+            font-size: 35px; 
+            /* 1em =35px */
+        }
+        .box{
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .px{
+            width: 200px;
+        }
+        .vw{
+            width:30vw;
+        }
+        .em{
+            width:10em;
+        }
+        .rem{
+            width:10rem;  
+            /* 160px will be width */
+        }
+        .ems li{
+            font-size: 1.5em;
+        }
+        .rems li{
+            font-size: 1.5rem; 
+            /* 1.5*16px=24px */
+        }
+        .box
+        {
+            margin: 20px;
+            box-sizing: border-box;
+            width: 300px;
+border-style: groove;
+        padding: 20px;}
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class=" box px">i am 200px wide Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, deleniti. Amet modi consectetur aut iure, nobis officia iste accusamus odio fugit commodi consequuntur aperiam soluta! Quaerat vitae iste doloribus dolore?</div>
+        <div class="box vw">I am 10vw wide</div>
+        <div class="parent">
+        <div class="box em ">i am 10em wide </div>
+
+        </div>
+        <div class="box rem">I am 10rem wide</div>
+    </div>
+
+    <!-- difference b/w rem and em -->
+    <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three a</li>
+                <li>Three b
+                    <ul>
+                        <li>Three b a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul class="ems">
+        <!-- 1.5*16=24px -->
+        <li>One</li>
+        <li>Two</li> 
+        <li>Three
+            <!-- 1.5*16=24px *1.5=36px -->
+            <ul>
+                <li>Three a</li>
+                <li>Three b
+                    <!-- 1.5*16=24px *1.5=36px*1.5=54px -->
+                    <ul>
+                        <li>Three b a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <p class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Placeat distinctio temporibus error deserunt, minus, laboriosam nostrum 
+        magni quod ipsum incidunt sunt alias.
+        Quaerat quibusdam, id cumque quisquam amet fuga unde!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ut. Delectus a quisquam maiores, nam eum incidunt aliquam esse fuga labore quod blanditiis debitis facere quas, tempore, eligendi odio cum?
+    </p>
+</body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
